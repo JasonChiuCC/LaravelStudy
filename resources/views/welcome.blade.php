@@ -39,6 +39,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                <a href="{{ route('user.id','1122') }}">Test</a>
             </div>
         </div>
     </body>

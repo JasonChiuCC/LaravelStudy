@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+Route::get('user/{id}/', ['as' => 'user.id', function ($id) {
+     return '使用者 ID = '.$id;
+}]);
